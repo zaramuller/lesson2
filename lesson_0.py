@@ -62,7 +62,8 @@ print (type(dict))
 intf = 'interface'
 tun = 'Tunnel0'
 
-print (intf + tun)
+concatted = intf + tun
+print (concatted)
 
 print (type(intf))
 
@@ -74,7 +75,7 @@ print ('a' , b)
 lichi = "a"
 tichi = b
 
-print ('a' , + b)
+print ('a' + str(b))
 
 
 
