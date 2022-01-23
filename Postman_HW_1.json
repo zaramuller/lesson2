@@ -1,0 +1,235 @@
+{
+	"info": {
+		"_postman_id": "d1d7079c-faa8-434d-ae64-a441af0beac6",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "EP_1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/get_method?name=zar&age=19",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"get_method"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "zar",
+							"description": "name"
+						},
+						{
+							"key": "age",
+							"value": "19"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "zarema",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "15",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "100500",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{base_url}}/user_info_3",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"user_info_3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/object_info_1?name=zar&age=17&weight=55",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"object_info_1"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "zar"
+						},
+						{
+							"key": "age",
+							"value": "17"
+						},
+						{
+							"key": "weight",
+							"value": "55"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/object_info_2?name=zar&age=14&salary=100",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"object_info_2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "zar"
+						},
+						{
+							"key": "age",
+							"value": "14"
+						},
+						{
+							"key": "salary",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/object_info_3?name=zar&age=17&salary=87",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"object_info_3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "zar"
+						},
+						{
+							"key": "age",
+							"value": "17"
+						},
+						{
+							"key": "salary",
+							"value": "87"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/object_info_4?name=zar&age=16&salary=99",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "zar"
+						},
+						{
+							"key": "age",
+							"value": "16"
+						},
+						{
+							"key": "salary",
+							"value": "99"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "namr",
+							"value": "zar",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "14",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "51",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{base_url}}/user_info_2",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"user_info_2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
